@@ -25,8 +25,8 @@ Topics covered:
 
 1. Clone this repository
 2. Work your way through each level, for example:
-  * cd 01/
-  * ruby main.rb
+    * `cd 01/`
+    * `ruby main.rb`
 
 ## Contributing
 
