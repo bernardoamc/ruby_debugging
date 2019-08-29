@@ -13,6 +13,9 @@ Topics covered:
 * singleton_class.ancestors
 * methods
 * methods.grep
+* instance_methods
+* public_methods
+* private_methods
 * method(:method_name).source_location
 * method(:method_name).super_method.source_location
 
