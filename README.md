@@ -16,5 +16,5 @@ Topics covered:
 
 ## Requirements
 
-* Ruby version 2.3 or higher
-* gem install pry-byebug
+* Ruby version `2.3` or higher
+* `gem install pry-byebug`
