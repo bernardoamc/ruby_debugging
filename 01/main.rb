@@ -16,5 +16,5 @@ end
 
 binding.pry # This is our breakpoint, the program will stop executing here
 
-information = ['Rails ', '6.0.0', 'Ruby debugging']
+information = ['Ruby', '2.6.2', 'Ruby debugging']
 format_info(information)

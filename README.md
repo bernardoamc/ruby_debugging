@@ -31,6 +31,16 @@ Topics covered:
     * `cd 01/`
     * `ruby main.rb`
 
+## Expected Output
+
+Every solved exercise should include the following output.
+
+```
+Framework: Ruby
+Version: 2.6.2
+Workshop: Ruby debugging
+```
+
 ## Contributing
 
 * Open an Issue or Pull Request
