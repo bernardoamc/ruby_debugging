@@ -8,6 +8,7 @@
 # USEFUL
 #   Information.ancestors
 #   information.method(:display_info).super_method.source_location
+#   backtrace or caller
 
 require 'pry-byebug'
 require_relative 'dependencies/cool_formatter.rb'
