@@ -1,6 +1,6 @@
 # Ruby Debugging
 
-Welcome to the Ruby Debugging repository. Te goal of this repository is to get
+Welcome to the Ruby Debugging repository. The goal of this repository is to get
 you familiar with common debugging tools and idioms. At the end of it I hope you
 will have a better understanding of Ruby itself.
 
