@@ -13,6 +13,7 @@ Topics covered:
 * singleton_class.ancestors
 * methods
 * methods.grep
+* instance_variables
 * instance_methods
 * public_methods
 * private_methods
