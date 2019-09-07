@@ -1,4 +1,4 @@
-# Our developers have decided that use a class to format our information, but
+# Our developers have decided to use a class to format our information, but
 # they got something wrong. Can you help them fix it?
 #
 # Challenges:
@@ -9,6 +9,9 @@
 #   next: jumps to the next line of the code
 #   step: jumps inside a method
 #   continue: keeps the program execution until it finds another breakpoint
+#
+# NEW
+#   information.instance_variables
 
 require 'pry-byebug'
 
