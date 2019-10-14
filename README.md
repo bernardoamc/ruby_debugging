@@ -44,6 +44,13 @@ Version: 2.6.2
 Workshop: Ruby debugging
 ```
 
+## Reading Material
+
+* [Metaprogramming Ruby](https://pragprog.com/book/ppmetr2/metaprogramming-ruby-2)
+* [I am a puts debuggerer](https://tenderlovemaking.com/2016/02/05/i-am-a-puts-debuggerer.html)
+* [Ruby Debugging Magic Cheat Sheet](https://www.schneems.com/2016/01/25/ruby-debugging-magic-cheat-sheet.html)
+* [Debugging Rails Applications](https://edgeguides.rubyonrails.org/debugging_rails_applications.html)
+
 ## Contributing
 
 * Open an Issue or Pull Request
