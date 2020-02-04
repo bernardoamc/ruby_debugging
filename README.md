@@ -21,6 +21,7 @@ Topics covered:
 * method(:method_name).super_method.source_location
 * backtrace
 * caller
+* [TracePoint](https://ruby-doc.org/core-2.6/TracePoint.html)
 
 ## Requirements
 
@@ -46,6 +47,7 @@ Workshop: Ruby debugging
 
 ## Reading Material
 
+* [Ruby-Doc.org](https://ruby-doc.org/)
 * [Metaprogramming Ruby](https://pragprog.com/book/ppmetr2/metaprogramming-ruby-2)
 * [I am a puts debuggerer](https://tenderlovemaking.com/2016/02/05/i-am-a-puts-debuggerer.html)
 * [Ruby Debugging Magic Cheat Sheet](https://www.schneems.com/2016/01/25/ruby-debugging-magic-cheat-sheet.html)
