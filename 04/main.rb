@@ -15,8 +15,14 @@ require_relative 'dependencies/cool_formatter.rb'
 require_relative 'dependencies/workshop_formatter.rb'
 
 class Information
-  include CoolFormatter
+  ## Problem:
+  # include CoolFormatter
+  # include WorkshopFormatter
+
+  ## Fix:
+  # Information (super) -> CoolFormatter (super) -> Workshop
   include WorkshopFormatter
+  include CoolFormatter
 
   attr_reader :language, :version, :workshop
 
@@ -28,7 +34,20 @@ class Information
 
   def display_info
     puts "Disclaimer: This is useful information."
-    super # What is this?
+
+    ## Debugging: Find which method Super is Calling
+    puts method(:display_info).super_method.source_location
+    # Problem -> /Users/shuhala/GitGud/ruby_debugging/04/dependencies/workshop_formatter.rb
+    pp Information.ancestors
+    # Problem -> [Information,
+    #  WorkshopFormatter,
+    #  CoolFormatter,
+    #  Object,
+    #  PP::ObjectMixin,
+    #  Kernel,
+    #  BasicObject]
+
+    super # Hint: What is this?
     puts "Disclaimer: This is not useful information."
   end
 end
