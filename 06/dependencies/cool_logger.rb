@@ -5,9 +5,15 @@ class CoolLogger
 
   class << self
     def log(language, version, workshop)
-      puts "Language: #{@language}"
-      puts "Version: #{@version}"
-      super
+      ## Problem:
+      # puts "Language: #{@language}"
+      # puts "Version: #{@version}"
+      # super
+
+      ## Fix:
+      puts "Language: #{language}"
+      puts "Version: #{version}"
+      super(workshop)
     end
   end
 end

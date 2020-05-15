@@ -21,6 +21,8 @@ class Information
 
   ## Fix:
   # Information (super) -> CoolFormatter (super) -> Workshop
+  # - "When including two modules or more, the last included one will
+  #   be inserted again right between the class and the rest of the chain"
   include WorkshopFormatter
   include CoolFormatter
 

@@ -30,7 +30,8 @@ class Information
     @workshop = workshop
   end
 
-  private
+  ## Problem:
+  # private
 
   def display_info
     puts "Language: #{language}"
@@ -39,7 +40,14 @@ class Information
   end
 end
 
-binding.pry # This is our breakpoint, the program will stop executing here
+# binding.pry # This is our breakpoint, the program will stop executing here
+
+# puts "instance_methods(false): #{Information.instance_methods(false).join(', ')}"
+# puts "instance_methods(true): #{Information.instance_methods(true).join(', ')}"
+# puts "public_methods(false): #{Information.public_methods(false).join(', ')}"
+# puts "public_methods(true): #{Information.public_methods(true).join(', ')}"
+# puts "private_methods(false): #{Information.private_methods(false).join(', ')}"
+# puts "private_methods(true): #{Information.private_methods(true).join(', ')}"
 
 information = Information.new('Ruby', '2.6.2', 'Ruby debugging')
 information.display_info

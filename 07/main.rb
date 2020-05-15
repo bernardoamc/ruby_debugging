@@ -10,7 +10,7 @@
 #   information.methods.grep /something/
 
 require 'pry-byebug'
-Dir["./dependencies/*.rb"].each {|file| require file }
+Dir["./dependencies/*.rb"].each { |file| require file }
 
 class Information
   include One
@@ -28,10 +28,14 @@ class Information
   end
 
   def log
-    please_log_this(language, version, workshop)
+    ## Problem: Wrong method?!
+    # please_log_this(language, version, workshop)
+
+    ## Fix:
+    i_can_log(language, version, workshop)
   end
 end
 
-binding.pry # This is our breakpoint, the program will stop executing here
+# binding.pry # This is our breakpoint, the program will stop executing here
 information = Information.new('Ruby', '2.6.2', 'Ruby debugging')
 information.log

@@ -10,7 +10,7 @@
 #   we call `information.log` in line 47.
 
 require 'pry-byebug'
-Dir["./dependencies/*.rb"].each {|file| require file }
+Dir["./dependencies/*.rb"].each { |file| require file }
 
 class Information
   include One
@@ -32,7 +32,7 @@ class Information
   end
 end
 
-binding.pry # This is our breakpoint, the program will stop executing here
+# binding.pry # This is our breakpoint, the program will stop executing here
 information = Information.new('Ruby', '2.6.2', 'Ruby debugging')
 
 trace_point = TracePoint.new(:call) do |info|
@@ -45,5 +45,6 @@ trace_point = TracePoint.new(:call) do |info|
   #     puts "Method '#{info.method_id}' from '#{info.defined_class}', line '#{info.lineno}'"
 end
 
+# pp Information.ancestors
 trace_point.enable
 information.log
