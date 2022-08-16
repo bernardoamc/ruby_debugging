@@ -26,14 +26,17 @@ Topics covered:
 ## Requirements
 
 * Ruby version `2.3` or higher
-* `gem install pry-byebug`
+* `bundle install --path vendor/bundle`
 
 ## Instructions
 
 1. Clone this repository
 2. Work your way through each level, for example:
     * `cd 01/`
-    * `ruby main.rb`
+    * `bundle exec ruby main.rb`
+
+> **Warning**
+> Do not forget to `bundle install --path vendor/bundle` and to run the examples with `bundle exec`
 
 ## Expected Output
 
