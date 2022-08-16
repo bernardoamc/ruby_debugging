@@ -1,15 +1,3 @@
-# What is wrong with our display_info method?
-#
-# Navigate the code with 'next', 'step' or 'continue'.
-#   next: jumps to the next line of the code
-#   step: jumps inside a method
-#   continue: keeps the program execution until it finds another breakpoint
-#
-# USEFUL
-#   Information.ancestors
-#   information.method(:display_info).super_method.source_location
-#   backtrace or caller
-
 require 'pry-byebug'
 require_relative 'dependencies/cool_formatter.rb'
 require_relative 'dependencies/workshop_formatter.rb'

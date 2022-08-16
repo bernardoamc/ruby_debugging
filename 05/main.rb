@@ -1,13 +1,3 @@
-# Our developers have decided to refactor our code, can you figure out what went wrong?
-#
-# Navigate the code with 'next', 'step' or 'continue'.
-#   next: jumps to the next line of the code
-#   step: jumps inside a method
-#   continue: keeps the program execution until it finds another breakpoint
-#
-# USEFUL
-#   Information.singleton_class.ancestors
-
 require 'pry-byebug'
 require_relative 'dependencies/cool_logger.rb'
 

@@ -1,11 +1,3 @@
-# It seems our "format_info" method is not printing our information correctly.
-# What could be wrong with it?
-
-# Navigate the code with 'next', 'step' or 'continue'.
-#   next: jumps to the next line of the code
-#   step: jumps inside a method
-#   continue: keeps the program execution until it finds another breakpoint
-
 require 'pry-byebug'
 
 def format_info(data)

@@ -1,14 +1,3 @@
-# This is becoming complex, can you find the proper method to log our code?
-#
-# Navigate the code with 'next', 'step' or 'continue'.
-#   next: jumps to the next line of the code
-#   step: jumps inside a method
-#   continue: keeps the program execution until it finds another breakpoint
-#
-# USEFUL
-#   Investigate TracePoint and find out which methods are being called after
-#   we call `information.log` in line 47.
-
 require 'pry-byebug'
 Dir["./dependencies/*.rb"].each {|file| require file }
 
