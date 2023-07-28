@@ -1,4 +1,4 @@
-require 'pry-byebug'
+require 'debug'
 require_relative 'dependencies/cool_formatter.rb'
 require_relative 'dependencies/workshop_formatter.rb'
 
@@ -21,7 +21,7 @@ class Information
   end
 end
 
-information = Information.new('Ruby', '2.6.2', 'Ruby debugging')
+information = Information.new('Ruby', '3.2.2', 'Ruby debugging')
 
-binding.pry # This is our breakpoint, the program will stop executing here
+binding.break # This is our breakpoint, the program will stop executing here
 information.display_info

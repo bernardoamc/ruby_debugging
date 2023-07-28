@@ -1,4 +1,4 @@
-require 'pry-byebug'
+require 'debug'
 
 def format_info(data)
   puts "Framework: #{data[1]}"
@@ -6,7 +6,7 @@ def format_info(data)
   puts "Workshop: #{data[3]}"
 end
 
-binding.pry # This is our breakpoint, the program will stop executing here
+binding.break # This is our breakpoint, the program will stop executing here
 
-information = ['Ruby', '2.6.2', 'Ruby debugging']
+information = ['Ruby', '3.2.2', 'Ruby debugging']
 format_info(information)

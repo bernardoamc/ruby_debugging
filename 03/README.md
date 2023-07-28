@@ -15,4 +15,4 @@ Navigate the code with 'next', 'step' or 'continue'.
 ### New concepts
 
 - information.method(:display_info).source_location
-- Information.ancestors
+- Information.ancestors (Notice the capital I, we are calling ancestors in the class itself)

@@ -1,4 +1,4 @@
-require 'pry-byebug'
+require 'debug'
 
 class Information
   def initialize(language, version, workshop)
@@ -14,7 +14,7 @@ class Information
   end
 end
 
-binding.pry # This is our breakpoint, the program will stop executing here
+binding.break # This is our breakpoint, the program will stop executing here
 
-information = Information.new('Ruby', '2.6.2', 'Ruby debugging')
+information = Information.new('Ruby', '3.2.2', 'Ruby debugging')
 information.to_s

@@ -21,4 +21,5 @@ Navigate the code with 'next', 'step' or 'continue'.
 ### New concepts
 
 - information.method(:display_info).super_method.source_location
-- backtrace or caller
+- backtrace
+- caller

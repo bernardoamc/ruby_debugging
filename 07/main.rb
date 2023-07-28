@@ -1,5 +1,5 @@
-require 'pry-byebug'
-Dir["./dependencies/*.rb"].each {|file| require file }
+require 'debug'
+Dir["./dependencies/*.rb"].each { |file| require file }
 
 class Information
   include One
@@ -21,6 +21,6 @@ class Information
   end
 end
 
-binding.pry # This is our breakpoint, the program will stop executing here
-information = Information.new('Ruby', '2.6.2', 'Ruby debugging')
+binding.break # This is our breakpoint, the program will stop executing here
+information = Information.new('Ruby', '3.2.2', 'Ruby debugging')
 information.log
