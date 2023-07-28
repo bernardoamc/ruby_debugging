@@ -8,7 +8,7 @@ Each exercise will present new idioms or reinforce existing ones.
 
 Topics covered:
 
-* [pry-byebug](https://github.com/deivid-rodriguez/pry-byebug)
+* [ruby/debug](https://github.com/ruby/debug)
 * ancestors
 * singleton_class.ancestors
 * methods
@@ -25,7 +25,7 @@ Topics covered:
 
 ## Requirements
 
-* Ruby version `2.3` or higher
+* Ruby version `3.1.0` or higher
 * `bundle install --path vendor/bundle`
 
 ## Instructions
@@ -38,13 +38,18 @@ Topics covered:
 > **Warning**
 > Do not forget to `bundle install --path vendor/bundle` and to run the examples with `bundle exec`
 
+Every problem has an associated `README.md` file with instructions and hints. Pay special attention to the "New concepts" section and try to replicate thre commands since it will introduce new concepts that you might not be familiar with and will help you through your debugging journey.
+
+> **Warning**
+> Do not forget to `cd` into each challenge folder.
+
 ## Expected Output
 
 Every solved exercise should include the following output.
 
-```
+```bash
 Framework: Ruby
-Version: 2.6.2
+Version: 3.2.2
 Workshop: Ruby debugging
 ```
 

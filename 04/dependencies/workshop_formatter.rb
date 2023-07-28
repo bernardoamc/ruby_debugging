@@ -1,6 +1,6 @@
 module WorkshopFormatter
   def display_info
-    binding.pry
+    binding.break
     # We can use backtrace or caller here to figure out the execution order
     # Try it out!
     puts "Workshop: #{workshop}"

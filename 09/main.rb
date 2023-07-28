@@ -1,4 +1,4 @@
-require 'pry-byebug'
+require 'debug'
 Dir["./dependencies/*.rb"].each {|file| require file }
 
 class Information
@@ -21,8 +21,8 @@ class Information
   end
 end
 
-binding.pry # This is our breakpoint, the program will stop executing here
-information = Information.new('Ruby', '2.6.2', 'Ruby debugging')
+binding.break # This is our breakpoint, the program will stop executing here
+information = Information.new('Ruby', '3.2.2', 'Ruby debugging')
 
 trace_point = TracePoint.new(:call) do |info|
   # Investigate what "info" contains.

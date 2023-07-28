@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'pry-byebug'
+ruby '>= 3.1.0'
+
+gem "debug", ">= 1.0.0"
